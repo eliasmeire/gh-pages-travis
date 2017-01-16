@@ -58,7 +58,7 @@ This will add the decrypt command to recreate `id_rsa` in the current folder as 
 Lastly update your `.travis.yml` to configure the script and run it after a successful build
 
 ```yml
-after_sucess:
+after_success:
   - npm run gh-pages-travis
 env:
   global:
